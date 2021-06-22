@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.contacts.ContactsFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="Контакты"
+        android:editable="false"
+        android:fontFamily="@font/codystar_light"
+        android:lineSpacingExtra="8sp"
+        android:text="Контакты"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:typeface="normal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Контакты" />
+
+
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:queryHint="Найти контакт"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+    </SearchView>
+
+    <ScrollView
+        android:id="@+id/scrollContacts"
+        android:layout_width="match_parent"
+        android:layout_height="676dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/scrollLayout_contacts"
+            />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

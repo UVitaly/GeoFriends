@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">LUF</string>
+    <string name="title_activity_maps">LUF</string>
+    <string name="title_activity_menu">LUF - Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">GEF</string>
+    <string name="nav_header_subtitle">GeoFriends</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Custom vars -->
+
+    <string name="menu_home">Home</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_contacts">Contacts</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_chat">Chat</string>
+
+    <string name="provider_gps">GPS</string>
+    <string name="provider_network">Network</string>
+    <string name="location_settings">Location settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="alerts">Alerts</string>
+    <string name="mapsSettings">Maps Settings</string>
+    <string name="themesSetting">Themes</string>
+    <string name="darkThemeStr">Dark Theme</string>
+    <string name="classicThemeStr">Classic Theme</string>
+
+</resources>
